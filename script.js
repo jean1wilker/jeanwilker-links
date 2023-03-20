@@ -7,7 +7,7 @@ function tootgleMode(){
   //substituir imagem
   if(html.classList.contains('light')){
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/Avatar-sun.png")
+    img.setAttribute("src", "./assets/Avatar-light.png")
   } else {
     //se estiver sem light mode, manter a imagem original 
     img.setAttribute("src", "./assets/Avatar.png")
